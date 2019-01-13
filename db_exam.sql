@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 11, 2018 at 08:55 PM
+-- Generation Time: Jan 13, 2019 at 08:11 AM
 -- Server version: 5.7.23
 -- PHP Version: 7.2.10
 
@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `tbl_user` (
   `email` varchar(32) NOT NULL,
   `status` int(11) NOT NULL DEFAULT '0',
   PRIMARY KEY (`userId`)
-) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `tbl_user`
@@ -126,15 +126,9 @@ INSERT INTO `tbl_user` (`userId`, `name`, `userName`, `password`, `email`, `stat
 (5, 'Imran Hosen', 'imran', '202cb962ac59075b964b07152d234b70', 'imran@gmail.com', 0),
 (8, 'Md. Imran Hosen', 'imranhosen', '202cb962ac59075b964b07152d234b70', 'imh@gmail.com', 0),
 (19, 'XYZ', 'XYZ', 'fcea920f7412b5da7be0cf42b8c93759', 'xyz@gmail.com', 0),
-(10, 'imran', 'admin', 'md5(34)', 'imy@gmail.com', 0),
-(11, 'im@gmail.com', 'username', 'md5(123)', 'im@gmail.com', 0),
-(12, 'aaaa', 'aaaaaaaaaa', 'md5(aaa)', 'aaa@aaa.aa', 0),
-(13, 'Saif', 'saiftheboss7', 'md5(123456)', 'saiftheboss7@gmail.com', 0),
-(14, 'hi', 'hi', 'md5(123456)', 'hi@gmail.com', 0),
 (20, 'Hassan', 'hasan', '81dc9bdb52d04dc20036dbd8313ed055', 'hasan@hasan.com', 0),
-(16, 'Saif', 'Saif', '123456', 'saif@wphive.com', 0),
-(17, 'hello', 'hiya', '123456', 'hiya@outlook.com', 0),
-(18, 'saif', 'saifdboss', '123456', 'saifdboss@gmail.com', 0);
+(22, 'Saif', 'saifhass', 'e10adc3949ba59abbe56e057f20f883e', 'abcd@gmail.com', 0),
+(23, 'saifdboss', 'saifdboss', 'e10adc3949ba59abbe56e057f20f883e', 'saif@paypal.com', 0);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
