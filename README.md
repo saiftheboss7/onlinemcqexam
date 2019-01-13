@@ -65,7 +65,7 @@ Want to contribute? Great! Fork the project and send me pull request. I would de
 License
 ----
 
-MIT
+Apache Version 2
 
 
 **Free Software, Hell Yeah!**
